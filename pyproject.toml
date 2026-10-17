@@ -7,7 +7,9 @@ authors = [
     { name = "PeerasakIn", email = "intarapaiboon@gmail.com" }
 ]
 requires-python = ">=3.14"
-dependencies = []
+dependencies = [
+    "ipython>=9.17.1",
+]
 
 [project.scripts]
 devops-python = "devops_python:main"
